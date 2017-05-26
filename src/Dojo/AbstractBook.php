@@ -2,7 +2,7 @@
 
 namespace Dojo;
 
-abstract class Book {
+abstract class AbstractBook {
     private $_price = 8;
     
     /**

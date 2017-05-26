@@ -2,4 +2,4 @@
 
 namespace Dojo;
 
-class Book3 extends Book {}
+class Book3 extends AbstractBook {}

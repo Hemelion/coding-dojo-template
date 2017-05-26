@@ -10,7 +10,7 @@ class Basket
     /**
      * @param \Dojo\Book $item
      */
-    public function add(Book $item) {
+    public function add(AbstractBook $item) {
         if(isset($this->_collection[$item->getName()])) {
             $this->_collection[$item->getName()]['value']++;
         } else {
@@ -27,7 +27,7 @@ class Basket
             return $cost;
         }
         foreach ($this->_collection as $item) {
-            if($item['item'] instanceof Book) {
+            if($item['item'] instanceof AbstractBook) {
                 $cost += $item['value'] * $item['item']->getPrice();
             }
         }
