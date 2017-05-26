@@ -1,8 +1,6 @@
 <?php
 
-use Dojo\Example;
 use Dojo;
-use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends PHPUnit_Framework_TestCase
 {
@@ -15,7 +13,6 @@ class ExampleTest extends PHPUnit_Framework_TestCase
     // This method will be called *after* each test run.
     public function tearDown() 
     {
-        $this->_basket = new Dojo\Basket();
     }
     
     public function testZeroItemValue()
