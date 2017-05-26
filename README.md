@@ -34,4 +34,9 @@ For example, how much does this basket of books cost?
 * 1 copy of the fourth book
 * 1 copy of the fifth book
 
-(answer: 51.20 EUR)
+        8 ksiazek, kazda za 8 EUR, = 64 EUR za zestaw bez promocji
+        na 5 ksiazek otrzymujemy 25% znizki, czyli z 40 EUR = 10 EUR
+        na 3 ksiazki, otrzymujemy 10% znizki, czyli 2,4 EUR
+        64 - (10 + 2,4 ) = 51.60 - BLAD W ZADANIU?
+
+(answer: 51.60 EUR (zmieniono z 51.20 ))
